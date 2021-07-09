@@ -10,6 +10,7 @@ function App() {
     let usersLiElements = namesUsers.map(el=> <li>{el.name}</li>)
   return (
     <div className="App">
+        <input type="text"/>
         {/*<ManComponent/>*/}
 {/*<ul>тут ли*/}
 {/*    {usersLiElements}*/}
